@@ -51,7 +51,6 @@ html,body{
     height: 20%;
     background: rgb(7, 7, 7) ;
     opacity: 40%;
-    transform: rotate(120deg);
     z-index: 7;
     
 }
@@ -64,7 +63,6 @@ html,body{
     width: 6px;
     background: rgb(7, 7, 7) ;
     opacity: 40%;
-    transform: rotate(180deg);
     z-index: 8;
 }
 
@@ -76,7 +74,6 @@ html,body{
     width: 2px;
     background:#63dac2;
     z-index: 9;
-    transform: rotate(30deg);
    
 } 
 

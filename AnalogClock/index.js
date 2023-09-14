@@ -9,7 +9,7 @@ function setDate(){
     const hour = now.getHours();
     const secDeg = ((sec/60) * 360 );
     const minDeg = ((min/60) * 360 );
-    const hourDeg = ((hour/12) * 360 );
+    const hourDeg = (((hour/12) * 360 )+((1/2)*min));
     sHand.style.transform = `rotate(${secDeg}deg)`;
     mHand.style.transform = `rotate(${minDeg}deg)`;
     hHand.style.transform = `rotate(${hourDeg}deg)`;
